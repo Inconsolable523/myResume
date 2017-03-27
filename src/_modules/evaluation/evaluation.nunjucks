@@ -1,11 +1,10 @@
-<section class="skill">
+<section class="evaluation">
   <div class="sec-title">
     <h1>自我评价</h1>
     <div class="underline"></div>
   </div>
 
   <ul class="items">
-    <li><h3>Web前端</h3></li>
       <ul class="sub-items">
         <li>自学能力强，工作认真踏实，对技术有强烈的好奇心和兴趣</li>
         <li>良好的语言语言沟通能力，能够积极主动地交流和高效的解决问题</li>

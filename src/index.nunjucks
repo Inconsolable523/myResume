@@ -25,8 +25,8 @@
     </div>
   </div>
 </div>
-<a class="pdf-download" href="/前端-支超.pdf">
-  <i class="icon iconfont">&#xe60d;</i>
+<a class="pdf-download" href="index.pdf">
+  <i class="icon iconfont">&#xe63c;</i>
   <span>PDF简历</span>
 </a>
 {% endblock %}
