@@ -1,0 +1,30 @@
+@media (max-width: 847px) {
+  .contact,
+  .title {
+    float: none;
+    text-align: center;
+  }
+  .title {
+    margin-bottom: 5px;
+  }
+  .title h2 {
+    font-size: 20px;
+  }
+  .contact li {
+    font-size: 16px;
+    margin-bottom: 2px;
+  }
+}
+@media (max-width: 1023px) {
+  .main-container {
+    width: 100%;
+    padding: 15px;
+    margin: 0;
+  }
+  .subfield .left,
+  .subfield .right {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=main.responsive.css.map */

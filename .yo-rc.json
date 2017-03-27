@@ -1,0 +1,12 @@
+{
+  "generator-yeogurt": {
+    "config": {
+      "projectName": "resume",
+      "htmlOption": "nunjucks",
+      "jsPreprocessor": "es6",
+      "cssOption": "less",
+      "testFramework": "none"
+    },
+    "version": "2.0.0"
+  }
+}

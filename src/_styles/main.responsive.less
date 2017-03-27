@@ -1,0 +1,29 @@
+@media (max-width: 847px) { // <=847的设备 开始响应header
+  .contact, .title {
+    float: none; text-align: center;
+  }
+
+  .title {
+    margin-bottom: 5px;
+    h2 {
+      font-size: 20px;
+    }
+  }
+  .contact li {
+    font-size: 16px;
+    margin-bottom: 2px;
+  }
+}
+
+@media (max-width: 1023px) { // <=1023的设备 移动端 响应.main-container
+  .main-container {
+    width: 100%;
+    padding: 15px;
+    margin: 0;
+  }
+  .subfield {
+    .left, .right {
+      width: 100%;
+    }
+  }
+}

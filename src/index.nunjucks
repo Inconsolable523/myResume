@@ -1,0 +1,32 @@
+{% extends '_layouts/base.nunjucks' %}
+
+{% macro mark(string) %}
+  <span class="mark">{{ string }}</span>
+{% endmacro %}
+
+{% block stylesheets %}
+  <link rel="stylesheet" href="{{baseUrl}}styles/main.responsive.css"/>
+{% endblock %}
+
+{% block content %}
+<div class="main-container">
+  {% include "_modules/header/header.nunjucks" %}
+  <div class="line"></div>
+  <div class="subfield">
+    <div class="left">
+      {% include "_modules/basic/basic.nunjucks" %}
+      {% include "_modules/work/work.nunjucks" %}
+      {% include "_modules/experience/experience.nunjucks" %}
+    </div>
+    <div class="right">
+      {% include "_modules/skill/skill.nunjucks" %}
+      {% include "_modules/evaluation/evaluation.nunjucks" %}
+
+    </div>
+  </div>
+</div>
+<a class="pdf-download" href="/前端-支超.pdf">
+  <i class="icon iconfont">&#xe60d;</i>
+  <span>PDF简历</span>
+</a>
+{% endblock %}
