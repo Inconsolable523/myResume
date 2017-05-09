@@ -1,14 +1,14 @@
 <section class="experience">
   <div class="sec-title">
-    <h1>个人经历</h1>
+    <h1>荣誉证书</h1>
     <div class="underline"></div>
   </div>
 
   <ul class="items">
       <ul class="sub-items">
+        <li>CET-4,计算机二级证书</li>
         <li>完整地学习过网易前端微专业，并获得优秀学员证书</li>
-        <li>学习认真踏实，曾多次获得学业奖学金</li>
-        <li>担任班级生活委员以及心理委员</li>
+        <li>学习认真踏实，学业奖学金3等奖(2次)</li>
         <li>担任过学校心里互助中心干事，工作认真负责，并获得过优秀干事</li>
       </ul>
    </ul>

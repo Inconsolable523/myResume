@@ -688,5 +688,8 @@ header {
 .work .sec-title:before {
   content: "\e60c";
 }
+.work .indent {
+  text-indent: 1em;
+}
 
 /*# sourceMappingURL=main.css.map */

@@ -4,35 +4,39 @@
     <div class="underline"></div>
   </div>
 
-    <ul class="items">
-      <li><h3>在线简历</h3></li>
-      <ul class="sub-items">
-        <li>基于yeogurt自动构建工具，使用gulp工作流</li>
-        <li>实现自动刷新，测试，编译，优化图片，压缩js，支持es6等一体的resume</li>
-        <li><h4>地址：</h4><a href="https://resume.zhichaoblog.com/">https://resume.zhichaoblog.com/</a></li>
-      </ul>
-    </ul>
-
-
-
   <ul class="items">
-    <li><h3>个人技术博客</h3></li>
+    <li><h3>智能物流平台</h3></li>
     <ul class="sub-items">
-      <li>基于Github开源项目"Ghost"搭建的博客系统</li>
-      <li>部署在个人VPS上并持续维护，也曾尝试过Hexo等静态博客</li>
-      <li><h4>地址：</h4><a href="http://zhichaoblog.com/">http://zhichaoblog.com/</a></li>
+      <li class="indent">用以参加{{ mark("互联网+(国家级)")}}的创业比赛项目;
+       主要负责前端页面的设计和开发，将产品经理的业务构想还原为设计图并实现，并与后台同学合作，以前后端分离的形式开发;
+      借助{{ mark("Vue2")}}开发为一个移动端SPA，使用{{ mark("ES6")}}进行开发，{{ mark("Vue-router")}}管理路由，使用{{ mark("axios+async/await")}}处理异步
+      请求，使用{{ mark("axios-mock")}}实现前后端并行开发，并借助{{ mark("postman")}}保证接口的一致性;
+      开发时对一些可复用的组件进行了简单抽象，并设计开发了一个Vue弹窗插件在项目中，方便其他前端同学使用。</li>
+      <li><h4>地址：</h4><a href="https://exp-solver.alexxd.com/">https://exp-solver.alexxd.com/</a></li>
     </ul>
   </ul>
 
   <ul class="items">
     <li><h3>网易云课堂主页</h3></li>
     <ul class="sub-items">
-      <li>不使用任何第三方类库，仅使用原生JavaScript,独立开发的一个前后端分离的网站首页</li>
-      <li>将可复用的一些功能函数封装为模块化组件提高开发效率</li>
-      <li>实现了代码结构清晰稳定易维护的业务逻辑</li>
+    <li class="indent">网易微专业大作业,独立开发的一个前后端分离的模拟网易云课堂首页;
+      未任何第三方类库，仅使用原生JavaScript，并将可复用的一些功能函数封装为模块化组件提高开发效率，
+      实现了代码结构清晰稳定易维护的业务逻辑。</li>
       <li><h4>地址：</h4><a href="https://github.com/Inconsolable523/Neteasy">https://github.com/Inconsolable523/Neteasy</a></li>
     </ul>
   </ul>
+
+
+    <ul class="items">
+      <li><h3>在线简历</h3></li>
+      <ul class="sub-items">
+        <li class="indent">移动端和pc端自适应的在线简历;
+        使用{{ mark("yeoman")}}的一个项目生成器{{ mark("generator-yeogurt")}}，使用{{ mark("gulp")}}构建工具
+        ,快速构建的一个实现同步刷新，测试，编译，优化图片，压缩js，支持es6等一体的resume。</li>
+        <li><h4>地址：</h4><a href="https://resume.zhichaoblog.com/">https://resume.zhichaoblog.com/</a></li>
+      </ul>
+    </ul>
+
 
 
 </section>

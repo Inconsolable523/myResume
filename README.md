@@ -6,7 +6,7 @@ Based on [generator-yeogurt@1.5.2](https://github.com/larsonjj/generator-yeogurt
 
 ## 技术
 
-JavaScript
+JavaScript(使用Babel将es6代码转换为es5)
 
 - [Browserify](http://browserify.org/) with ES6/2015 support through [Babel](https://babeljs.io/)
 
@@ -24,7 +24,7 @@ HTML
 - [Imagemin](https://github.com/imagemin/imagemin)
 - [Uglify](https://github.com/mishoo/UglifyJS)
 
-服务器
+页面同步测试工具
 
 - [BrowserSync](http://www.browsersync.io/)
 
