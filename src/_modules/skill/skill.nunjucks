@@ -11,25 +11,27 @@
         <li>熟悉{{ mark("W3C") }}标准，掌握前端开发基本技能和素质，能准确还原设计图</li>
         <li>熟悉{{ mark("HTML") }}，能编写语义合理，兼容性良好的页面文档结构</li>
         <li>熟悉{{ mark("Sass、Compass") }}等css工具，熟悉CSS{{ mark("模块化")}}</li>
-        <li>熟悉常见的浏览器兼容性问题及其解决方案</li>
-        <li>熟悉{{ mark("HTML5") }}特性，熟悉{{ mark("CSS3")}} 特性及动画制作</li>
+        <li>了解常见的浏览器兼容性问题及其解决方案</li>
+        <li>了解{{ mark("HTML5") }}特性，了解{{ mark("CSS3")}} 特性及动画制作</li>
       </ul>
     </li>
 
     <li><h4>熟悉 JavaScript</h4>
       <ul class="sub-items">
-        <li>了解{{ mark("ES6")}}规范，并有良好的编码习惯</li>
-        <li>熟悉{{ mark("jQuery，Bootstrap")}}等类库，了解{{ mark("Vue") }}</li>
+        <li>熟悉{{ mark("ECMA")}}规范，并有良好的编码习惯</li>
+        <li>熟悉{{ mark("jQuery，Bootstrap")}}等类库</li>
+        <li>熟悉{{ mark("Vue") }}，并有项目实践经验</li>
         <li>熟悉基于{{ mark("Ajax")}}的前后端分离开发模式</li>
         <li>熟悉{{ mark("Git")}}，可熟练使用Git管理代码版本</li>
-        <li>了解{{ mark("前端模块化")}}，可借助{{ mark("Require.js")}}开发符合AMD规范的模块化代码</li>
+        <li>了解{{ mark("前端模块化")}}，使用过基于{{ mark("AMD")}}，{{ mark("CommonJS")}}等规范的模块化方案</li>
       </ul>
     </li>
 
     <li><h4>其他</h4>
       <ul class="sub-items">
-        <li>了解{{ mark("Webpack")}} 等前端自动化工作流</li>
-        <li>了解{{ mark("前端优化")}}以及{{mark("web安全")}}，以 {{ mark("OS X")}} 为日常工作环境，使用{{ mark("WebStorm，Sublime")}} 进行开发，使用 {{ mark("Markdown") }}进行日常写作</li>
+        <li>了解{{ mark("Webpack")}}，{{ mark("Gulp")}} 等前端构建工具</li>
+        <li>了解{{ mark("前端优化")}},{{mark("Web安全")}}以及{{ mark("ES6")}}</li>
+        <li>以 {{ mark("OS X")}} 为日常工作环境，使用{{ mark("WebStorm，Sublime")}} 进行开发，使用 {{ mark("Markdown") }}进行日常写作</li>
 
       </ul>
     </li>
