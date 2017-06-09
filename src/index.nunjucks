@@ -15,10 +15,11 @@
   <div class="subfield">
     <div class="left">
       {% include "_modules/basic/basic.nunjucks" %}
-      {% include "_modules/skill/skill.nunjucks" %}
+      {% include "_modules/work/work.nunjucks" %}
+
     </div>
     <div class="right">
-      {% include "_modules/work/work.nunjucks" %}
+      {% include "_modules/skill/skill.nunjucks" %}
       {% include "_modules/experience/experience.nunjucks" %}
       {% include "_modules/evaluation/evaluation.nunjucks" %}
 
