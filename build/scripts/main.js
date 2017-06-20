@@ -1,2 +1,20 @@
-!function e(r,o,t){function n(c,i){if(!o[c]){if(!r[c]){var f="function"==typeof require&&require;if(!i&&f)return f(c,!0);if(u)return u(c,!0);var s=new Error("Cannot find module '"+c+"'");throw s.code="MODULE_NOT_FOUND",s}var a=o[c]={exports:{}};r[c][0].call(a.exports,function(e){var o=r[c][1][e];return n(o?o:e)},a,a.exports,e,r,o,t)}return o[c].exports}for(var u="function"==typeof require&&require,c=0;c<t.length;c++)n(t[c]);return n}({1:[function(e,r,o){"use strict";!function(e){var r=e.createElement("script");r.src="//hm.baidu.com/hm.js?f940aae7b3f51d3eae76f0fe4ec1bf27",e.body.appendChild(r),console.log("😊 Welcome to ZhiChao's resume!"),console.log("The resume source code is on https://github.com/wssgcg1213/resume")}(document)},{}]},{},[1]);
+(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
+// Main javascript entry point
+// Should handle bootstrapping/starting application
+'use strict';
+
+//import $ from 'jquery';
+
+(function (doc) {
+  // dom ready
+  var bd = doc.createElement("script");
+  bd.src = "//hm.baidu.com/hm.js?f940aae7b3f51d3eae76f0fe4ec1bf27";
+  doc.body.appendChild(bd);
+
+  console.log('😊 Welcome to ZhiChao\'s resume!');
+  console.log('The resume source code is on https://github.com/wssgcg1213/resume');
+})(document);
+
+},{}]},{},[1])
+
 //# sourceMappingURL=main.js.map

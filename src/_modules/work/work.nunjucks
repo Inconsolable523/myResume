@@ -8,7 +8,8 @@
     <li><h3>Memory-game</h3></li>
      <li><h4>使用vue2开发的一个游戏，设计有三个难度不同的关卡</h4></li>
     <ul class="sub-items">
-       <li>使用了rem移动适配方案，使用了vuex管理全局游戏状态，使用组件化开发，将游戏界面分成header，body，footer三个部分，实现组件复用。</li>
+       <li> 使用了vuex管理全局游戏状态，使用vue-router切换关卡，
+       使用组件化开发，将游戏界面分成header，body，footer三个部分，实现组件复用。且使用了rem移动适配方案，手机，平板，PC端皆可以随意畅玩的一款休闲小游戏。</li>
       <li><h4>地址：</h4><a href="http://game.zhichaoblog.com/">http://game.zhichaoblog.com/</a></li>
 
     </ul>
@@ -37,18 +38,5 @@
       <li><h4>地址：</h4><a href="https://github.com/Inconsolable523/Neteasy">https://github.com/Inconsolable523/Neteasy</a></li>
     </ul>
   </ul>
-
-
-    <ul class="items">
-      <li><h3>在线简历</h3></li>
-      <h4><li>移动端和pc端自适应的在线简历<li></h4>
-      <ul class="sub-items">
-        <li>使用{{ mark("yeoman")}}的一个项目生成器{{ mark("generator-yeogurt")}}，使用{{ mark("gulp")}}构建工具
-        ,快速构建的一个实现同步刷新，测试，编译，优化图片，压缩Js，支持Es6等一体的Resume。</li>
-        <li><h4>地址：</h4><a href="https://resume.zhichaoblog.com/">https://resume.zhichaoblog.com/</a></li>
-      </ul>
-    </ul>
-
-
 
 </section>
