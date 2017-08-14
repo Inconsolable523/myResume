@@ -1,0 +1,17 @@
+<section class="practice">
+  <div class="sec-title">
+    <h1>实践经历</h1>
+    <div class="underline"></div>
+  </div>
+
+  <ul class="items">
+  <li><h3>重庆猪八戒知识产权服务有限公司</h3>   (2017.7~2017.8)</li>
+  <li><h4>《投保系统》以及《需求池》全栈开发</h4></li>
+      <ul class="sub-items">
+      <li>前端使用vue，Element-UI快速搭建；后端使用Express扩展的内部框架作为前后端中间层处理数据，并通过rap分析接口结构，动态生成模拟数据，提升开发效率。</li>
+       <li>另外将公司内部框架结合webpack自主搭建了全栈自动刷新的开发模式并推广，大大提高了开发效率。</li>
+      </ul>
+   </ul>
+
+</section>
+

@@ -1,11 +1,11 @@
 <section class="work">
   <div class="sec-title">
-    <h1>个人项目</h1>
+    <h1>项目</h1>
     <div class="underline"></div>
   </div>
 
   <ul class="items">
-    <li><h3>Memory-game</h3></li>
+    <li><h3>Memory-game</h3>   (2017.5)</li>
      <li><h4>使用vue2开发的一个游戏，设计有三个难度不同的关卡</h4></li>
     <ul class="sub-items">
        <li> 使用了vuex管理全局游戏状态，使用vue-router切换关卡，
@@ -16,7 +16,7 @@
   </ul>
 
   <ul class="items">
-    <li><h3>智能物流平台</h3></li>
+    <li><h3>智能物流平台</h3>  (2017.3~2017.4)</li>
      <li><h4>互联网+(国家级)创业比赛项目</h4></li>
     <ul class="sub-items">
        <li>主要负责前端页面的设计和开发，将产品经理的业务构想还原为设计图并实现，与后台同学合作，并借助{{ mark("mock")}}服务实现前后端并行开发，
@@ -29,7 +29,7 @@
   </ul>
 
   <ul class="items">
-    <li><h3>网易云课堂主页</h3></li>
+    <li><h3>网易云课堂主页</h3>  (2016.12)</li>
     <h4><li>网易微专业大作业<li></h4>
     <ul class="sub-items">
      <li>独立开发的一个前后端分离的模拟网易云课堂首页;

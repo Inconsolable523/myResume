@@ -1,11 +1,12 @@
 <section class="basic">
   <div class="sec-title">
-    <h1>教育经历</h1>
+    <h1>基本信息</h1>
     <div class="underline"></div>
   </div>
 
   <ul class="items">
     <li><h3>重庆邮电大学</h3> 本科 (2014 ~ 2018)</li>
+    <li class="indent">性别：女 <li>
     <li class="indent">GPA：3.1 <li>
     <li class="indent">成绩：前30%</li>
     <li class="indent">计算机学院 / 智能科学与技术专业</li>
